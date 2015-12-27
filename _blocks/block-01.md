@@ -2,7 +2,7 @@
 layout: post
 title:  "Coding the Humanities"
 date:   2015-12-25 12:48:19 +0100
-categories: block block-red
+classes: "block block-red head"
 ---
 # Coding the Humanities
 

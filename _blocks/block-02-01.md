@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "The Alternative Classroom"
 date:   2015-12-25 12:48:19 +0100
-categories: block block-aquamarine
+classes: block block-aquamarine
 ---
 ## The Alternative Classroom
 

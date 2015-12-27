@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Alternative Rules: Impatience, Laziness and Hubris"
 date:   2015-12-25 12:48:19 +0100
-categories: block block-orange
+classes: block block-orange
 references:
 - slug: art-science-technology-i 
 - slug: coding-the-humanities-pilot

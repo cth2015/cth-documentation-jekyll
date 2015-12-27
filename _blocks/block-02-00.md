@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "From Content to Context"
 date:   2015-12-25 12:48:19 +0100
-categories: block block-yellow
+classes: block block-yellow
 ---
 # From Content to Context
 
