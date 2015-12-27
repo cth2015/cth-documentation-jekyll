@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "The Alternative Classroom"
-date:   2015-12-25 12:48:19 +0100
+type: "item-body-1"
 classes: block block-aquamarine
 ---
 ## The Alternative Classroom

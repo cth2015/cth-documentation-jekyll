@@ -1,14 +1,28 @@
 ---
 layout: default
 ---
-
 <div class="story">
-  {% for block in site.blocks %}
+  <p style="color: pink;">this is the story</p>
+  <div class="item item-head">
+    <p style="color: pink;">this is an item</p>
+  </div>
+  {% for num in (1...1) %}
+  <div class="item item-body"> 
+    <p style="color: pink;">this is an item</p>
+    {% for block in site.blocks | where: "type", "item-body-1" %}
     <div class="{{ block.classes }}">
-      <h2>
-        <a class="block-link" href="{{ block.url | prepend: site.baseurl }}">{{ block.title }}</a>
-      </h2>
-      {{ block.content}}
+      <p style="color: pink;">this is a block</p>
+      <div>{{ block.content}}</div>
+      <div>
+        {% for reference in block.references %}
+          <div class="reference">
+            <p style="color: pink;">this is a reference</p>
+            <h3>{{ reference.slug }}</h3>
+          </div> 
+        {% endfor %}
+      </div>
     </div>
+    {% endfor %}
+  </div>
   {% endfor %}
 </div>

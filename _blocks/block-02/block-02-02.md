@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Alternative Rules: Impatience, Laziness and Hubris"
-date:   2015-12-25 12:48:19 +0100
+type: "item-body-1"
 classes: block block-orange
 references:
 - slug: art-science-technology-i 

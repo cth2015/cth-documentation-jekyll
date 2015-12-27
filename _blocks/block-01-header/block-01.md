@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Coding the Humanities"
-date:   2015-12-25 12:48:19 +0100
-classes: "block block-red head"
+type: "item-head"
+classes: "block block-red"
 ---
 # Coding the Humanities
 
