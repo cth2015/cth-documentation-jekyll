@@ -1,7 +1,9 @@
 ---
 layout: post
-type: "item-head"
-classes: "block block-red"
+item: item-head
+block: 0
+sidebar: false
+classes: block block-red
 ---
 # Coding the Humanities
 

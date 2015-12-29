@@ -1,6 +1,7 @@
 ---
 layout: post
-type: "item-body-1"
+item: 1
+block: 1
 classes: block block-aquamarine
 ---
 ## The Alternative Classroom

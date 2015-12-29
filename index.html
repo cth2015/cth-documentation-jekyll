@@ -1,28 +1,40 @@
 ---
 layout: default
 ---
-<div class="story">
+<main class="story">
   <p style="color: pink;">this is the story</p>
+
   <div class="item item-head">
-    <p style="color: pink;">this is an item</p>
-  </div>
-  {% for num in (1...1) %}
-  <div class="item item-body"> 
-    <p style="color: pink;">this is an item</p>
-    {% for block in site.blocks | where: "type", "item-body-1" %}
-    <div class="{{ block.classes }}">
+    <p style="color: pink;">this is a item</p>
+    <div class="{{ site.blocks[0].classes }}">
       <p style="color: pink;">this is a block</p>
-      <div>{{ block.content}}</div>
-      <div>
-        {% for reference in block.references %}
+    </div>
+    <div class="{{ site.blocks[0].classes }}">
+      <p style="color: pink;">this is a block</p>
+      <div>{{ site.blocks[0].content }}</div>
+    </div>
+  </div>
+
+  {% for num in (1...3) %}
+  <div class="item item-body"> 
+    <p style="color: pink; width: 100%;">this is a item</p>
+    {% for block in site.blocks %}
+    {% if block.item == num %}
+      <div class="{{ block.classes }}">
+        <p style="color: pink;">this is a block</p>
+        <div>{{ block.content }}</div>
+        <div>
+          {% for reference in block.references %}
           <div class="reference">
             <p style="color: pink;">this is a reference</p>
             <h3>{{ reference.slug }}</h3>
           </div> 
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endif %}
     {% endfor %}
   </div>
   {% endfor %}
-</div>
+
+</main>

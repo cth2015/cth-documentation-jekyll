@@ -1,6 +1,7 @@
 ---
 layout: post
-type: "item-body-1"
+item: 1
+block: 2
 classes: block block-orange
 references:
 - slug: art-science-technology-i 

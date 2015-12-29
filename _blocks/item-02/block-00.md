@@ -1,6 +1,7 @@
 ---
 layout: post
-type: "item-body-1"
+item: 1
+block: 0
 classes: block block-yellow
 ---
 # From Content to Context

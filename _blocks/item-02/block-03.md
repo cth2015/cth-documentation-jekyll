@@ -1,6 +1,7 @@
 ---
 layout: post
-type: "item-body-1"
+item: 1
+block: 3
 classes: block block-grey
 references: 
 - slug: when-all-we-have-is-a-hammer 
