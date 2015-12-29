@@ -1,6 +1,6 @@
 ---
 layout: post
-item: item-head
+item: item-header
 block: 0
 sidebar: false
 classes: block block-red
