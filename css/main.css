@@ -474,7 +474,8 @@ body {
   background: black;
   z-index: 10;
   color: white;
-  margin: 0; }
+  margin: 0;
+  overflow: hidden; }
 
 .nav-link {
   color: white; }
@@ -525,7 +526,8 @@ h2 {
 .block {
   width: 100%;
   padding: 15px;
-  margin: 20px; }
+  margin: 20px;
+  overflow: hidden; }
   .block:before, .block:after {
     content: " ";
     display: table; }
