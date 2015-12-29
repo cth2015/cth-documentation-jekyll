@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (1.5.3)
+    jekyll-asciidoc (1.0.0)
+      asciidoctor (>= 0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-asciidoc
+
+BUNDLED WITH
+   1.11.2
